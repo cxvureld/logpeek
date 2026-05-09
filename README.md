@@ -1,5 +1,9 @@
 # LogPeek — Real-time Log Analyzer
 
+[![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)](https://go.dev)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
 Terminal-based real-time log analyzer for Nginx and JSON logs. Built with Go + Bubble Tea.
 
 ## ✨ Features
@@ -38,7 +42,6 @@ When production goes down, you don't have time to set up Grafana or write comple
 - Who's flooding the server? Top IP Addresses
 - How many 5xx errors? Real-time status code breakdown
 - All in one terminal command, no dependencies.
-
 
 ## 📜 License
 
