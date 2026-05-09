@@ -17,22 +17,22 @@ Terminal-based real-time log analyzer for Nginx and JSON logs. Built with Go + B
 
 ## 🚀 Quick Start
 
-git clone https://github.com/cxvureld/logpeek.git
-cd logpeek
+```git clone https://github.com/cxvureld/logpeek.git```
+```cd logpeek```
 
 Run with nginx logs:
-go run cmd/logpeek/main.go --file=test.log --format=nginx
+```go run cmd/logpeek/main.go --file=test.log --format=nginx```
 
 Run with JSON logs:
-go run cmd/logpeek/main.go --file=test_json.log --format=json
+```go run cmd/logpeek/main.go --file=test_json.log --format=json```
 
 Pipe from stdin:
-tail -f /var/log/nginx/access.log | go run cmd/logpeek/main.go --format=nginx
+```tail -f /var/log/nginx/access.log | go run cmd/logpeek/main.go --format=nginx```
 
 ## 📋 Supported Formats
 
-Nginx Combined: --format=nginx (Standard nginx access logs)
-JSON: --format=json (Structured JSON logs like CloudWatch, Loki)
+Nginx Combined: ```--format=nginx``` (Standard nginx access logs)
+JSON: ```--format=json``` (Structured JSON logs like CloudWatch, Loki)
 
 ## 🤔 Why LogPeek?
 
