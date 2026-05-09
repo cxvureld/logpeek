@@ -1,0 +1,5 @@
+{"timestamp":"2024-01-15T10:30:17Z","level":"info","message":"User list requested","source":"api-gateway","method":"GET","path":"/api/users","status":200,"latency_ms":45,"client_ip":"66.249.66.1","bytes":2345}
+{"timestamp":"2024-01-15T10:30:18Z","level":"warn","message":"Login failed","source":"auth-service","method":"POST","path":"/api/login","status":401,"latency_ms":12,"client_ip":"192.168.1.1","bytes":100}
+{"timestamp":"2024-01-15T10:30:19Z","level":"error","message":"Database timeout","source":"order-service","method":"GET","path":"/api/orders","status":500,"latency_ms":5000,"client_ip":"10.0.0.5","bytes":500}
+{"timestamp":"2024-01-15T10:30:20Z","level":"info","message":"User list requested","source":"api-gateway","method":"GET","path":"/api/users","status":200,"latency_ms":42,"client_ip":"66.249.66.1","bytes":2345}
+{"timestamp":"2024-01-15T10:30:21Z","level":"error","message":"Service unavailable","source":"order-service","method":"GET","path":"/api/orders","status":503,"latency_ms":30000,"client_ip":"10.0.0.5","bytes":200}
